@@ -1,0 +1,88 @@
+.wrap {
+    margin-top: 50px;
+  }
+  .task {
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .task__new,
+  .task__area {
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+  }
+  h2 {
+    padding: 10px 30px;
+    background-color: #ddd;
+    box-sizing: border-box;
+    font-size: 18px;
+    color:#333;
+  }
+
+  /*タスク作成エリア*/
+  .task__new form {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .task__new form input[type="text"]{
+    width: 70%;
+    height: 30px;
+    margin: 0 20px;
+    padding:2px 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  .task__new form input[type="submit"]{
+    width: 70px;
+    height: 35px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #F5D0A9;
+    cursor: pointer;
+  }
+
+  /*タスク一覧表示エリア*/
+  .task__area-list {
+    padding: 10px 30px 20px;
+    max-height: 300px;
+    box-sizing: border-box;
+    overflow-y: auto;
+  }
+  .task__area-list > li {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .task__area-list input[type="submit"]{
+    width: 70px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: #a9c3f5;
+  }
+
+  button {
+    width: 70px;
+    height: 35px;
+    padding: 3px 5px;
+    display: block;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    background: #75d1dc;
+    cursor: pointer;
+  }
